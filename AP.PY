@@ -1,10 +1,4 @@
-"""
-E-commerce Sales Forecasting + Checkout Page A/B Test
----------------------------------------------------------
-Covers two real-world data science skills:
-1. Time Series Forecasting (trend, seasonality, ARIMA)
-2. A/B Testing (sample size calculation, statistical significance)
-"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -17,11 +11,8 @@ from sklearn.metrics import mean_absolute_error
 np.random.seed(42)
 import sqlite3
 
-# ================================================================
-# ================================================================
 # PART 1: TIME SERIES SALES FORECASTING
-# ================================================================
-# ================================================================
+
 print("#" * 60)
 print("# PART 1: TIME SERIES SALES FORECASTING")
 print("#" * 60)
